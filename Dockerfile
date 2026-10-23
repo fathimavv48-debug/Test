@@ -9,4 +9,3 @@ EXPOSE 80
 
 # Step 6: Start NGINX and keep it running in the foreground so the container doesn't exit
 CMD ["nginx", "-g", "daemon off;"]
-build
